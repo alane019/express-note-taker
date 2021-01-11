@@ -10,6 +10,8 @@ const express = require("express");
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+// require js file designated for api route handling
+require("./routes/apiRoutes")(app);
 
 // serve static files in designated public directory
 // variant >> app.use(express.static("public"));
