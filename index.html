@@ -6,16 +6,147 @@
 	  <title>Express-Note-Taker</title>
 	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 	  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	  <style>
+		*{margin: 12px;}
+		
+		html {
+		background: url(https://res.cloudinary.com/hilnmyskv/image/upload/q_auto/v1591085853/Algolia_com_Blog_assets/Featured_images/challenging-migration-heroku-google-kubernetes-engine/t4avhgttmrqmpvnwpqbw.png) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-backdrop-filter: blur(10px) opacity(67%);
+		backdrop-filter: blur(10px) opacity(67%);
+		}
+		html{
+		background-image: url(https://res.cloudinary.com/hilnmyskv/image/upload/q_auto/v1591085853/Algolia_com_Blog_assets/Featured_images/challenging-migration-heroku-google-kubernetes-engine/t4avhgttmrqmpvnwpqbw.png);
+		opacity: 95%; 
+		margin: auto;
+		cursor: zoom-in;		
+		}
+		body{
+			opacity: 90%;
+		}
+		#spinner{
+			margin-left: 80%;
+			margin: 15px !important;
+			
+		}
+	  </style>
   </head>
   <body>
-	  <h1>App is deployed at Heroku is pending</h1>
-	  <h4>"https://express-note-taker-01132020.herokuapp.com/"</h4>
-	  <h4> Redirecting... </h4>
-	  <img style="margin: auto;cursor: zoom-in;" src="https://res.cloudinary.com/hilnmyskv/image/upload/q_auto/v1591085853/Algolia_com_Blog_assets/Featured_images/challenging-migration-heroku-google-kubernetes-engine/t4avhgttmrqmpvnwpqbw.png" width="438">	  
-<script>
-	window.setTimeout(function(){
-	window.location.href = "https://express-note-taker-01132020.herokuapp.com/";
-	},1000);
-</script>
+   <div class="container">
+     <div class="jumbotron">
+	  <h1>App is deployed at Heroku.com</h1>
+	  
+	  <div>
+			<div>
+				<div class="pulse-container">	
+
+				<div class="pulse growshrink">
+				<div id="spinner" class="spinner-border" role="status">
+
+				<span></span>
+				<span id="redir">
+				</span>
+							<span id="redir">
+				</span>
+				</div>
+				</span>
+				</div>
+		    </div>
+		</div>
+				  <a href="https://express-note-taker-01132020.herokuapp.com/">  &nbsp; https://express-note-taker-01132020.herokuapp.com</a>
+		</div>
+	  </div>
+	</div>
+	<script>
+		window.setTimeout(function(){
+		window.location.href = "https://express-note-taker-01132020.herokuapp.com/";
+		},(1000));
+	</script>
+		<style>
+				@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				background-image: linear-gradient(to bottom, #cfd9df 0%, #e2ebf0 100%);
+				font-family: 'Source Sans Pro', sans-serif;
+				margin: 0;
+				height: 100vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+			}
+
+			.pulse-container {
+				display: flex;
+				border: rgba(192,235,205,0.1) solid 10px;
+				box-radius: 50px;
+				width: 20%;
+				padding: 4px;
+			}
+
+			.pulse-inner {
+				background: black;
+				border-radius: 60%;
+				box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+				margin: 10px;
+				height: 20px;
+				width: 20px;
+				position: relative;
+				left: 20px;
+				opacity: 65%;
+				transform: scale(1);
+				animation: pulse-black 2s infinite;
+			box-shadow: inset -7px 0px 5px 5px rgb(110 133 140);
+			padding: 82px;
+			}
+
+			@keyframes pulse-black {
+				0% {
+					transform: scale(0.75);
+					box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.6);
+				}
+				
+				70% {
+					transform: scale(1);
+					box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+				}
+				
+				100% {
+					transform: scale(0.95);
+					box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+				}
+			}
+			.growshrink {
+				background: rgba(191, 217, 278, 1);
+				box-shadow: 0 0 0 0 rgba(51, 217, 178, 1);
+				animation: pulse 2s infinite;
+			opacity: 65%;
+
+			}
+
+			@keyframes pulse {
+				0% {
+					transform: scale(0.75);
+					box-shadow: 0 0 0 0 rgba(51, 217, 178, 0.7);
+				}
+				
+				70% {
+					transform: scale(1);
+					box-shadow: 0 0 0 10px rgba(151, 217, 128, .4);
+				}
+				
+				100% {
+					transform: scale(0.95);
+					box-shadow: 0 0 0 0 rgba(51, 217, 178, .2);
+				}
+			}
+		</style>
   </body>
   </html>

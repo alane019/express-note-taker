@@ -2,9 +2,11 @@
   Demo is viewable here: [https://alane019.github.io/express-note-taker/](https://alane019.github.io/express-note-taker/)
  
   This is a simple note taking application which serves and saves to/from a json file using Express.js and Node.js
+  
+    ![express-note-taker-snip2](https://raw.githubusercontent.com/alane019/express-note-taker/main/assets/snip2.png)
 
   ![express-note-taker-snip1](https://raw.githubusercontent.com/alane019/express-note-taker/main/assets/snip.jpg)
-  ![express-note-taker-snip2](https://raw.githubusercontent.com/alane019/express-note-taker/main/assets/snip2.png)
+
 
   ## Table of Contents
   * [Installation](#Installation)
